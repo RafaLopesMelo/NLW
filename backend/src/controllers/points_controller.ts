@@ -10,8 +10,8 @@ class PointsController {
             .map(item => Number(item.trim()));
 
         const points = await knex('points')
-            .join('point-items', 'points.id', '=', 'point-items.point_id')
-            .whereIn('point-items.item_id', parsedItems)
+            .join('point_items', 'points.id', '=', 'point_items.point_id')
+            .whereIn('point_items.item_id', parsedItems)
             .where('city', String(city))
             .where('uf', String(uf))
             .distinct()
@@ -28,8 +28,8 @@ class PointsController {
         if(!point) return res.status(400).json({error: 'No point found with this ID'});
 
         const items = await knex('items')
-            .join('point-items', 'items.id', '=', 'point-items.item_id')
-            .where('point-items.point_id', id)
+            .join('point_items', 'items.id', '=', 'point_items.item_id')
+            .where('point_items.point_id', id)
             .select('items.title')
 
         return res.json({point, items});
@@ -72,7 +72,7 @@ class PointsController {
             }
         })
     
-        await trx('point-items').insert(pointItems);
+        await trx('point_items').insert(pointItems);
 
         await trx.commit();
     
