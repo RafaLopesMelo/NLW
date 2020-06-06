@@ -1,12 +1,12 @@
 ![Ilustração Ecoleta](https://user-images.githubusercontent.com/38081852/83580830-6f63e200-a513-11ea-9a27-0a109ec1e4d0.png)
 <br>
 <br>
-# Introdução
+# 🚀 Introdução
 
 Ecoleta é uma aplicação contruída durante a primera edição do evento gratuito organizado pela Rocketseat: Next Level Week! O evento se baseou em 5 episódios diários que foram lançados entre os dias 1 e 5 de junho de 2020. 
 Este projeto utiliza a stack TypeScript de ponta a ponta, desde o back end com NodeJS até o front end e mobile com React (ReactDOM e React-Native, respectivamente).
 
-# Tecnologias usadas:
+# 🎸 Tecnologias usadas:
 
   ### - Linguagem: TypeScript
 
@@ -30,7 +30,7 @@ Este projeto utiliza a stack TypeScript de ponta a ponta, desde o back end com N
 
 - IBGE API (Utilizada para receber listagem de estados e cidades brasileiras)
 
-# Começando
+# ☕️ Começando
 
 Para testar o aplicativo, é necessário criar uma cópia dele na sua máquina:
 
@@ -61,11 +61,11 @@ Para utilizar a versão mobile é preciso instalar o expo:
 
 e então só resta instalar o aplicativo do expo no celular e escanear o QR code gerado pelo comando acima. Lembre-se de manter sua máquina e seu celular na mesma rede wi-fi!
 
-# Agradecimentos:
+# 🖱 Agradecimentos:
 
 Eternamente grato à Rocketseat e toda sua equipe, mas principalmente ao Diego Fernandes que me proporcionou muitas horas de puro conhceimento e código!
 
-# Conhecimentos adquiridos:
+# 💻 Conhecimentos adquiridos:
 
  - Desenvolver em TypeScript deste o back até o front end
  - Utilização de mapas tanto no Mobile quando na Web
